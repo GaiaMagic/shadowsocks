@@ -1,0 +1,5 @@
+{
+  "password": "FOOOOOOOOOOOO",
+  "method": "aes-256-cfb",
+  "workers": 2
+}
