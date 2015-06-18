@@ -7,6 +7,7 @@ ADD . /ss
 RUN python setup.py install
 
 CMD ssserver \
+	-m $METHOD \
 	-p 443 \
 	-c /ss/configs.json
 

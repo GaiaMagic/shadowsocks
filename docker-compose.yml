@@ -1,5 +1,15 @@
-server:
+bf:
   build: .
   restart: always
+  environment:
+    METHOD: bf-cfb
   ports:
     - '8888:443'
+
+aes:
+  build: .
+  restart: always
+  environment:
+    METHOD: aes-256-cfb
+  ports:
+    - '8889:443'
